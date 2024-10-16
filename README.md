@@ -7,8 +7,8 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/tutorial
 Step 1 - Lets create the conda env
 
 ```python
-conda create -n snowflake-lanchain python=3.10
-conda activate snowflake-lanchain  
+conda create -n snowflake-langchain python=3.10
+conda activate snowflake-langchain  
 
 ```
 
