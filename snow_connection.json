@@ -1,0 +1,10 @@
+{
+    "account": "ztb50591",
+    "user": "PSEADMIN",
+    "password": "Worldisflat16@",
+    "role": "ACCOUNTADMIN",
+    "warehouse": "NA_WH",
+    "database": "Datasciencecollege",
+    "schema": "public",
+    "client_session_keep_alive": "True"
+}
