@@ -3,7 +3,7 @@ import json
 import snowflake.connector
 from snowflake.snowpark import Session
 
-connection_parameters = json.load(open("./snow_connection.json"))
+connection_parameters = json.load(open("../snow_connect.json"))
 
 
 def connection() -> snowflake.connector.SnowflakeConnection:
