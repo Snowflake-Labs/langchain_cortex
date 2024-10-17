@@ -36,7 +36,7 @@ step 4
 For [Quickstart-Cortex Search ](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/tutorials/cortex-search-tutorial-1-search#introduction)
 
 ```
-snow_connect.json-- Parameters please update youer id/password 
+snow_connect.json-- Parameters please update your id/password 
 {
     "account": "xxxx",
     "user": "xxxx",
@@ -53,7 +53,8 @@ For [Quickstart-Cortex RAG LLM ](https://quickstarts.snowflake.com/guide/ask_que
 
 if you don't have WH configured 
 
-```CREATE OR REPLACE WAREHOUSE cortex_search_tutorial_wh WITH
+```
+CREATE OR REPLACE WAREHOUSE cortex_search_tutorial_wh WITH
      WAREHOUSE_SIZE='X-SMALL'
      AUTO_SUSPEND = 120
      AUTO_RESUME = TRUE
