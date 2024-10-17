@@ -5,7 +5,7 @@ import os
 import streamlit as st
 from snowflake.core import Root
 # from conn_help import session
-from connection import session
+from connection import session_RAG
 import pandas as pd
 import json
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -17,7 +17,7 @@ pd.set_option("max_colwidth",None)
 NUM_CHUNKS = 3 # Num-chunks provided as context. Play with this to check how it affects your accuracy
 
 ## Initiating session 
-session = session()
+session = session_RAG()
 databases = session.get_current_database()
 schemas = session.get_current_schema()
 

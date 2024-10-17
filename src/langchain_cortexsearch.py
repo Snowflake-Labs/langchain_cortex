@@ -1,9 +1,3 @@
-# ###testing 
-# import os, getpass
-# from dotenv import load_dotenv,find_dotenv
-# load_dotenv()
-# ###
-
 # Import packages
 from snowflake.core import Root
 import os
@@ -27,18 +21,6 @@ SCHEMA = session.get_current_schema()
 SERVICE = "airbnb_svc"
 BASE_TABLE = "DATASCIENCECOLLEGE.public.airbnb_listings"
 ARRAY_ATTRIBUTES = {"AMENITIES"}
-
-# # # ### Setting up the env varioable for open API keys 
-# os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
-# os.environ['LANGCHAIN_API_KEY']=os.getenv('LANGCHAIN_API_KEY')
-# os.environ["LANGCHAIN_TRACING_V2"] = "true"
-#os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
-# Setting the API key
-#openai.api_key = os.environ['OPENAI_API_KEY']
-
-import streamlit as st
-
-api_key = st.secrets["api_key"]
 
 
 def get_column_specification():
@@ -156,5 +138,3 @@ def main():
 if __name__ == "__main__":
     st.set_page_config(page_title="Cortex AI Search and Summary", layout="wide")
     main()
-
-

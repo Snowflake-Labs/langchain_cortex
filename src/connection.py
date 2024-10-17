@@ -4,6 +4,8 @@ import snowflake.connector
 from snowflake.snowpark import Session
 
 connection_parameters = json.load(open("../snow_connect.json"))
+connection_parameters_RAG = json.load(open("../Langchain_cs.json"))
+
 
 
 def connection() -> snowflake.connector.SnowflakeConnection:
@@ -22,4 +24,7 @@ def connection() -> snowflake.connector.SnowflakeConnection:
 
 def session() -> Session:
     return Session.builder.configs(connection_parameters).create()
+
+def session_RAG() -> Session:
+    return Session.builder.configs(connection_parameters_RAG).create()
 
