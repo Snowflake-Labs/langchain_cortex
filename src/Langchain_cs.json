@@ -1,10 +1,11 @@
 {
-    "account": "XXXXX",
-    "user": "XXXX",
-    "password": "XXXX",
+    "account": "ztb50591",
+    "user": "PSEADMIN",
+    "password": "Worldisflat16@",
     "role": "ACCOUNTADMIN",
-    "warehouse": "XXXX",
+    "warehouse": "NA_WH",
     "database": "CC_QUICKSTART_CORTEX_SEARCH_DOCS",
     "schema": "DATA",
     "client_session_keep_alive": "True"
 }
+
