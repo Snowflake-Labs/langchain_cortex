@@ -1,0 +1,10 @@
+{
+    "account": "XXXX",
+    "user": "XXXX",
+    "password": "XXXX",
+    "role": "ACCOUNTADMIN",
+    "warehouse": "XXXX",
+    "database": "XXXX",
+    "schema": "XXXX",
+    "client_session_keep_alive": "True"
+}
